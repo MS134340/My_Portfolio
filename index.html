@@ -95,6 +95,7 @@
             color: var(--dark);
             background-color: var(--light);
             overflow-x: hidden;
+            font-size: 16px;
         }
         
         .hero {
@@ -578,6 +579,11 @@
                         <span class="tag">NLP</span>
                         <span class="tag">Web Development</span>
                         <span class="tag">Problem Solving</span>
+                        <!-- New Tags Appended -->
+                        <span class="tag">Generative AI</span>
+                        <span class="tag">Computer Vision</span>
+                        <span class="tag">Django</span>
+                        <span class="tag">Edge AI</span>
                     </div>
                 </div>
             </div>
@@ -614,6 +620,19 @@
                         <span class="skill-name">JavaScript</span>
                         <div class="progress-bar">
                             <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <!-- Appended Languages -->
+                    <div class="skill">
+                        <span class="skill-name">Kotlin</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">SQL</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
                         </div>
                     </div>
                 </div>
@@ -673,6 +692,35 @@
                         </div>
                     </div>
                 </div>
+                
+                <!-- Added Generative AI & Computer Vision Category (Fits Grid Layout) -->
+                <div class="category" data-aos="fade-up" data-aos-delay="300">
+                    <h3>AI & Backend Tech</h3>
+                    <div class="skill">
+                        <span class="skill-name">Generative AI (LLMs)</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Computer Vision (YOLO)</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Django</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">TailwindCSS</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -683,7 +731,62 @@
             <h2 class="section-title">Featured Projects</h2>
             
             <div class="projects-grid">
-                <div class="project-card" data-aos="flip-left">
+                <!-- 1. Integrated Pest Detection System -->
+                <!-- 1. Integrated Pest Detection System -->
+                <div class="project-card" data-aos="flip-left" data-aos-delay="0">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Integrated Pest Detection System">
+                    </div>
+                    <div class="project-content">
+                        <h3>Integrated Pest Detection and Classification System</h3>
+                        <p>End-to-end computer vision pipeline combining YOLOv8 and ResNet50 with Android integration for real-time pest diagnosis.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>YOLOv8</span>
+                            <span>Kotlin</span>
+                        </div>
+                        <a href="https://github.com/MS134340" class="project-link">View Project →</a>
+                    </div>
+                </div>          
+                <!-- 2. SmartEditor OCR -->
+                <div class="project-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="SmartEditor OCR">
+                    </div>
+                    <div class="project-content">
+                        <h3>SmartEditor: Confidence-Aware OCR System</h3>
+                        <p>Interactive OCR correction platform for scanned documents using confidence-aware validation and image preprocessing.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Tesseract OCR</span>
+                            <span>OpenCV</span>
+                            <span>Tkinter</span>
+                        </div>
+                        <a href="https://github.com/MS134340" class="project-link">View Project →</a>
+                    </div>
+                </div>
+                
+                <!-- 3. ChazeFashion E-Commerce -->
+                <div class="project-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="ChazeFashion E-Commerce">
+                    </div>
+                    <div class="project-content">
+                        <h3>ChazeFashion E-Commerce Platform</h3>
+                        <p>Full-stack e-commerce platform with secure authentication, modular backend services, and scalable order processing workflows.</p>
+                        <div class="project-tech">
+                            <span>Django</span>
+                            <span>TailwindCSS</span>
+                            <span>Python</span>
+                            <span>MySQL</span>
+                        </div>
+                        <a href="https://github.com/MS134340" class="project-link">View Project →</a>
+                    </div>
+                </div>
+
+                <!-- 4. Music Recommendation System -->
+                <div class="project-card" data-aos="flip-left" data-aos-delay="300">
                     <div class="project-image">
                         <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Music Recommendation System">
                     </div>
@@ -700,7 +803,8 @@
                     </div>
                 </div>
                 
-                <div class="project-card" data-aos="flip-left" data-aos-delay="100">
+                <!-- 5. Loan Approval Prediction -->
+                <div class="project-card" data-aos="flip-left" data-aos-delay="400">
                     <div class="project-image">
                         <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1011&q=80" alt="Loan Approval Prediction">
                     </div>
@@ -717,7 +821,8 @@
                     </div>
                 </div>
                 
-                <div class="project-card" data-aos="flip-left" data-aos-delay="200">
+                <!-- 6. Temperature Forecast -->
+                <div class="project-card" data-aos="flip-left" data-aos-delay="500">
                     <div class="project-image">
                         <img src="https://images.unsplash.com/photo-1580193769210-b8d1c049a7d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1174&q=80" alt="Temperature Forecast">
                     </div>
@@ -734,7 +839,8 @@
                     </div>
                 </div>
                 
-                <div class="project-card" data-aos="flip-left" data-aos-delay="300">
+                <!-- 7. Drum Kit Web App -->
+                <div class="project-card" data-aos="flip-left" data-aos-delay="600">
                     <div class="project-image">
                         <img src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Drum Kit Web App">
                     </div>
@@ -759,15 +865,39 @@
         <div class="container">
             <h2 class="section-title">Research & Publications</h2>
             
+            <!-- Original Research Item -->
             <div class="research-item" data-aos="fade-up">
                 <div class="research-icon">
                     <i class="fas fa-file-alt"></i>
                 </div>
                 <div class="research-content">
                     <h3>Sentence Embeddings using N-gram Features and Contrastive Learning for Multilingual Datasets</h3>
-                    <p class="research-meta">Published in IEEE Xplore | April 2025</p>
+                    <p class="research-meta">Published in IEEE Xplore</p>
                     <p>Improved text classification by 8% and semantic similarity by 15% using N-gram features and contrastive learning for multilingual NLP tasks.</p>
                     <a href="https://ieeexplore.ieee.org/document/10939278" class="research-link">View Publication →</a>
+                </div>
+            </div>
+
+            <!-- New Achievement Items Appended -->
+            <div class="research-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="research-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <div class="research-content">
+                    <h3>HackSmart Mobility Hackathon Finalist</h3>
+                    <p class="research-meta">AWS & BatterySmart</p>
+                    <p>Finalist Team for developing a confidence-aware multilingual voicebot for driver support.</p>
+                </div>
+            </div>
+
+            <div class="research-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="research-icon">
+                    <i class="fas fa-medal"></i>
+                </div>
+                <div class="research-content">
+                    <h3>TCS CodeVita Season 12</h3>
+                    <p class="research-meta">Global Rank 7732</p>
+                    <p>Secured Global Rank 7732 among thousands of coding participants.</p>
                 </div>
             </div>
         </div>
@@ -779,37 +909,200 @@
             <h2 class="section-title">Certifications</h2>
             
             <div class="timeline">
+                <!-- VISIBLE ITEMS (Top 11) -->
                 <div class="timeline-item" data-aos="fade-right">
                     <div class="timeline-content">
-                        <h3>Generative AI with LLM</h3>
-                        <p>DeepLearning.AI, Amazon Web Services</p>
-                        <span class="timeline-date">April 2024</span>
+                        <h3>Fundamentals of AI Agents Using RAG and LangChain</h3>
+                        <p>IBM</p>
                     </div>
                 </div>
-                
                 <div class="timeline-item" data-aos="fade-left">
                     <div class="timeline-content">
-                        <h3>Prompt Engineering for ChatGPT</h3>
-                        <p>Coursera</p>
-                        <span class="timeline-date">February 2024</span>
+                        <h3>Generative AI Engineering and Fine-Tuning Transformers</h3>
+                        <p>IBM</p>
                     </div>
                 </div>
-                
                 <div class="timeline-item" data-aos="fade-right">
                     <div class="timeline-content">
-                        <h3>Introduction to LLM</h3>
+                        <h3>Generative AI Advanced Fine-Tuning for LLMs</h3>
+                        <p>IBM</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-content">
+                        <h3>Generative AI Language Modeling with Transformers</h3>
+                        <p>IBM</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <h3>Generative AI with Large Language Models</h3>
+                        <p>DeepLearning.AI</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-content">
+                        <h3>Building Generative AI-Powered Applications with Python</h3>
+                        <p>IBM</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <h3>Introduction to Deep Learning & Neural Networks with Keras</h3>
+                        <p>IBM</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-content">
+                        <h3>Introduction to Large Language Models</h3>
                         <p>Google Cloud</p>
-                        <span class="timeline-date">January 2024</span>
                     </div>
                 </div>
-                
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <h3>Data Structures and Algorithms</h3>
+                        <p>GeeksforGeeks</p>
+                    </div>
+                </div>
                 <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-content">
+                        <h3>Cloud Computing</h3>
+                        <p>NPTEL</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <h3>Android App Development Sprint in Kotlin Jetpack Compose</h3>
+                        <p>Humble Coders</p>
+                    </div>
+                </div>
+
+                <!-- HIDDEN ITEMS (Show More) -->
+                <div class="timeline-item hidden-cert" style="display: none;">
+                    <div class="timeline-content">
+                        <h3>Generative AI and LLMs: Architecture and Data Preparation</h3>
+                        <p>IBM</p>
+                    </div>
+                </div>
+                <div class="timeline-item hidden-cert" style="display: none;">
+                    <div class="timeline-content">
+                        <h3>Gen AI Foundational Models for NLP & Language Understanding</h3>
+                        <p>IBM</p>
+                    </div>
+                </div>
+                <div class="timeline-item hidden-cert" style="display: none;">
                     <div class="timeline-content">
                         <h3>Generative AI for Everyone</h3>
                         <p>DeepLearning.AI</p>
-                        <span class="timeline-date">January 2024</span>
                     </div>
                 </div>
+                <div class="timeline-item hidden-cert" style="display: none;">
+                    <div class="timeline-content">
+                        <h3>Introduction to Generative AI</h3>
+                        <p>Google Cloud</p>
+                    </div>
+                </div>
+                <div class="timeline-item hidden-cert" style="display: none;">
+                    <div class="timeline-content">
+                        <h3>Prompt Engineering for ChatGPT</h3>
+                        <p>Vanderbilt University</p>
+                    </div>
+                </div>
+                <div class="timeline-item hidden-cert" style="display: none;">
+                    <div class="timeline-content">
+                        <h3>Generative AI Primer</h3>
+                        <p>Vanderbilt University</p>
+                    </div>
+                </div>
+                <div class="timeline-item hidden-cert" style="display: none;">
+                    <div class="timeline-content">
+                        <h3>GenAI for Everyone</h3>
+                        <p>Fractal Analytics</p>
+                    </div>
+                </div>
+                <div class="timeline-item hidden-cert" style="display: none;">
+                    <div class="timeline-content">
+                        <h3>Build AI Apps with ChatGPT, DALL·E, and GPT-4</h3>
+                        <p>Scrimba</p>
+                    </div>
+                </div>
+                <div class="timeline-item hidden-cert" style="display: none;">
+                    <div class="timeline-content">
+                        <h3>ChatGPT Advanced Data Analysis</h3>
+                        <p>Vanderbilt University</p>
+                    </div>
+                </div>
+                <div class="timeline-item hidden-cert" style="display: none;">
+                    <div class="timeline-content">
+                        <h3>ChatGPT Playground for Beginners: Intro to NLP AI</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+                <div class="timeline-item hidden-cert" style="display: none;">
+                    <div class="timeline-content">
+                        <h3>ChatGPT for Beginners: Save Time with Microsoft Excel</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+                <div class="timeline-item hidden-cert" style="display: none;">
+                    <div class="timeline-content">
+                        <h3>Learn to Code with AI</h3>
+                        <p>Scrimba</p>
+                    </div>
+                </div>
+                <div class="timeline-item hidden-cert" style="display: none;">
+                    <div class="timeline-content">
+                        <h3>Mastering Data Structures & Algorithms using C and C++</h3>
+                        <p>Abdul Bari</p>
+                    </div>
+                </div>
+                <div class="timeline-item hidden-cert" style="display: none;">
+                    <div class="timeline-content">
+                        <h3>Programming in C++ Specialization</h3>
+                        <p>Codio</p>
+                    </div>
+                </div>
+                <div class="timeline-item hidden-cert" style="display: none;">
+                    <div class="timeline-content">
+                        <h3>Analysis of Algorithms</h3>
+                        <p>Princeton University</p>
+                    </div>
+                </div>
+                <div class="timeline-item hidden-cert" style="display: none;">
+                    <div class="timeline-content">
+                        <h3>Algorithms on Strings</h3>
+                        <p>University of California San Diego</p>
+                    </div>
+                </div>
+                <div class="timeline-item hidden-cert" style="display: none;">
+                    <div class="timeline-content">
+                        <h3>Dynamic Programming, Greedy Algorithms</h3>
+                        <p>University of Colorado Boulder</p>
+                    </div>
+                </div>
+                <div class="timeline-item hidden-cert" style="display: none;">
+                    <div class="timeline-content">
+                        <h3>Approximation Algorithms and Linear Programming</h3>
+                        <p>University of Colorado Boulder</p>
+                    </div>
+                </div>
+                <div class="timeline-item hidden-cert" style="display: none;">
+                    <div class="timeline-content">
+                        <h3>Software Engineering: Implementation and Testing</h3>
+                        <p>The Hong Kong University of Science and Technology</p>
+                    </div>
+                </div>
+                <div class="timeline-item hidden-cert" style="display: none;">
+                    <div class="timeline-content">
+                        <h3>The Bits and Bytes of Computer Networking</h3>
+                        <p>Google</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Show More Button -->
+            <div style="text-align: center; margin-top: 3rem;">
+                <button id="showMoreCertsBtn" class="cta-button" style="cursor: pointer; border: none; outline: none; font-family: 'Poppins', sans-serif;">Show All Certifications</button>
             </div>
         </div>
     </section>
@@ -899,6 +1192,18 @@
             if (!e.target.closest('nav') && navLinks.classList.contains('active')) {
                 navLinks.classList.remove('active');
             }
+        });
+
+        // Show More Certifications Logic
+        document.getElementById('showMoreCertsBtn').addEventListener('click', function() {
+            const hiddenCerts = document.querySelectorAll('.hidden-cert');
+            hiddenCerts.forEach(cert => {
+                cert.style.display = 'block';
+            });
+            this.style.display = 'none'; // Hide button after clicking
+            
+            // Re-trigger AOS on newly visible elements
+            setTimeout(() => { AOS.refresh(); }, 100);
         });
     </script>
 </body>
